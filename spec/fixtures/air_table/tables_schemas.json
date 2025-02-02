@@ -1,0 +1,211 @@
+{
+  "tables": [
+      {
+          "id": "table_id",
+          "name": "Test Table",
+          "primaryFieldId": "fldR4xeexmAAwxEun",
+          "fields": [
+              {
+                  "type": "singleLineText",
+                  "id": "fldR4xeexmAAwxEun",
+                  "name": "Single Line Text"
+              },
+              {
+                  "type": "multilineText",
+                  "id": "fldunQLksLnsxy53C",
+                  "name": "Long Text"
+              },
+              {
+                  "type": "multipleAttachments",
+                  "options": {
+                      "isReversed": false
+                  },
+                  "id": "fld9rfA27fjGmjroy",
+                  "name": "Attachment"
+              },
+              {
+                  "type": "checkbox",
+                  "options": {
+                      "icon": "check",
+                      "color": "greenBright"
+                  },
+                  "id": "fldcFFURIpkqUjRwL",
+                  "name": "Checkbox"
+              },
+              {
+                  "type": "multipleSelects",
+                  "options": {
+                      "choices": [
+                          {
+                              "id": "seloX5KKEr22jUozp",
+                              "name": "Option 1",
+                              "color": "blueLight2"
+                          },
+                          {
+                              "id": "selpXmk9CKIqAkuWv",
+                              "name": "Option 2",
+                              "color": "cyanLight2"
+                          }
+                      ]
+                  },
+                  "id": "fldb24xhYBoUYEaYw",
+                  "name": "Multiple Select"
+              },
+              {
+                  "type": "singleSelect",
+                  "options": {
+                      "choices": [
+                          {
+                              "id": "selQtg6mAaTxosGq0",
+                              "name": "Option 1",
+                              "color": "blueLight2"
+                          },
+                          {
+                              "id": "selAoz8jQJU3ti2ds",
+                              "name": "Option 2",
+                              "color": "cyanLight2"
+                          }
+                      ]
+                  },
+                  "id": "fldX6R9xM5Kd7XxtI",
+                  "name": "Single Select"
+              },
+              {
+                  "type": "singleCollaborator",
+                  "id": "fldbv0MVANHSNSjxy",
+                  "name": "User"
+              },
+              {
+                  "type": "date",
+                  "options": {
+                      "dateFormat": {
+                          "name": "local",
+                          "format": "l"
+                      }
+                  },
+                  "id": "fld7WVMpDigTyM9IF",
+                  "name": "Date"
+              },
+              {
+                  "type": "phoneNumber",
+                  "id": "fldakdE5Y4EEgLXOM",
+                  "name": "Phone Number"
+              },
+              {
+                  "type": "email",
+                  "id": "fldCKuYUMrOtAx9xa",
+                  "name": "Email"
+              },
+              {
+                  "type": "url",
+                  "id": "fldkvCdNGiBDbibsD",
+                  "name": "URL"
+              },
+              {
+                  "type": "number",
+                  "options": {
+                      "precision": 1
+                  },
+                  "id": "flda90mFU4WeFjV9Y",
+                  "name": "Number"
+              },
+              {
+                  "type": "currency",
+                  "options": {
+                      "precision": 2,
+                      "symbol": "$"
+                  },
+                  "id": "fldTKHPPvabBhcol7",
+                  "name": "Currency"
+              },
+              {
+                  "type": "percent",
+                  "options": {
+                      "precision": 0
+                  },
+                  "id": "fldSRs2QRnHs50sVl",
+                  "name": "Percent"
+              },
+              {
+                  "type": "duration",
+                  "options": {
+                      "durationFormat": "h:mm"
+                  },
+                  "id": "fldwYV6Lf82POA3bu",
+                  "name": "Duration"
+              },
+              {
+                  "type": "rating",
+                  "options": {
+                      "icon": "star",
+                      "max": 5,
+                      "color": "yellowBright"
+                  },
+                  "id": "fldJQ60VRcxFZlZCw",
+                  "name": "Rating"
+              },
+              {
+                  "type": "formula",
+                  "options": {
+                      "isValid": true,
+                      "formula": "{fldTKHPPvabBhcol7}",
+                      "referencedFieldIds": [
+                          "fldTKHPPvabBhcol7"
+                      ],
+                      "result": {
+                          "type": "number",
+                          "options": {
+                              "precision": 0
+                          }
+                      }
+                  },
+                  "id": "flda9OkfXHJ6I4tbQ",
+                  "name": "Formula"
+              },
+              {
+                  "type": "createdTime",
+                  "options": {
+                      "result": {
+                          "type": "dateTime",
+                          "options": {
+                              "dateFormat": {
+                                  "name": "local",
+                                  "format": "l"
+                              },
+                              "timeFormat": {
+                                  "name": "12hour",
+                                  "format": "h:mma"
+                              },
+                              "timeZone": "client"
+                          }
+                      }
+                  },
+                  "id": "fld4lHUqp6YMljwg0",
+                  "name": "Created"
+              },
+              {
+                  "type": "lastModifiedBy",
+                  "id": "fldDcWpgmpJbzdYDI",
+                  "name": "Last Modified By"
+              },
+              {
+                  "type": "autoNumber",
+                  "id": "fldgKbHUKXUQSYChR",
+                  "name": "ID"
+              },
+              {
+                  "type": "barcode",
+                  "id": "fldeCzwI3rXOQQ9Kq",
+                  "name": "Barcode"
+              }
+          ],
+          "views": [
+              {
+                  "id": "viw8KDBTEBgc00AWW",
+                  "name": "Grid view",
+                  "type": "grid"
+              }
+          ]
+      }
+  ]
+}

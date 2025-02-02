@@ -1,0 +1,9 @@
+{
+  "bases": [
+      {
+          "id": "base_id",
+          "name": "API Test",
+          "permissionLevel": "create"
+      }
+  ]
+}
