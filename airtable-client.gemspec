@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = 'airtable-client'
-  spec.version = '0.1.0'
+  spec.version = '0.1.1'
   spec.authors = 'Stuart Farnaby, Big Bear Studios'
   spec.license = 'MIT'
   spec.homepage = 'https://github.com/bigbearstudios-web/airtable-client-gem'
